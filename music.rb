@@ -22,7 +22,7 @@ end
 
 def delete_artist(playlist)
   playlist |artist, song|
-   puts playlist.delete(0)
+   puts playlist.delete("0")
    
 end 
 
